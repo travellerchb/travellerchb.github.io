@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>博客搭建小结</title>
+      <link href="/2024/08/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%BB%93/"/>
+      <url>/2024/08/03/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<h2 id="以下总结了在博客搭建过程中遇到的一些较为重要的问题"><a href="#以下总结了在博客搭建过程中遇到的一些较为重要的问题" class="headerlink" title="以下总结了在博客搭建过程中遇到的一些较为重要的问题"></a>以下总结了在博客搭建过程中遇到的一些较为重要的问题</h2><h1 id="仓库搭建"><a href="#仓库搭建" class="headerlink" title="仓库搭建"></a>仓库搭建</h1><blockquote><p>创建仓库时，仓库名称要和用户名一致</p></blockquote><blockquote><p>注意，github默认的主分支是main不是master，master是以前的，在看教程时需小心</p></blockquote><span id="more"></span><h1 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h1><blockquote><p>个人觉得域名用创建时的就好（看个人需求）</p></blockquote><h1 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h1><blockquote><p>使用SSH连接远程仓库时，最好一个平台一对公私钥，因为不同平台连接时会有可能成功或失败，需要在配置文件中进行相应的调整，例：github要将端口改为443，默认端口22不行，但gitee却可以</p></blockquote><p>配置文件内容格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">Hostname ssh.github.com</span><br><span class="line">Port 443</span><br><span class="line">User git</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/github_key</span><br></pre></td></tr></table></figure><h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><blockquote><p>在下载Node.js是注意权限问题和关闭杀毒软件</p></blockquote><blockquote><p>在使用npm下载时，推荐使用国内镜像网站（速度快，可能还可以避免某些问题），本人使用的是淘宝镜像</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure><blockquote><p>使用魔法加速仍不如使用镜像快，而且在设置sitemap时博客还出现一对报错，但换成镜像后就没有问题了</p></blockquote><h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><blockquote><p>在对博客进行个性化配置是最好每个功能都单独搜一下教程（最新），因为主题版本更新后可能会和以前的教程有些不同</p><p>例：hexo主题设置显示文章字数和阅读时长安装的插件不再是hexo-wordcount而是改为hexo-symbols-count-time</p></blockquote><blockquote><p>在搭建博客时遇到的问题基本都可以在网上找到解决方法，所以遇到问题时不要急，多翻翻几个网页或许就能找到答案</p></blockquote><h1 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h1><blockquote><p>最后，提个建议，在开发时最好将项目备份！</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown + Typora 笔记速记</title>
       <link href="/2024/08/02/Markdown%20+%20Typora%20%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/"/>
       <url>/2024/08/02/Markdown%20+%20Typora%20%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/</url>
