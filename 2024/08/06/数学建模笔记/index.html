@@ -39,7 +39,7 @@
 <meta property="og:image" content="https://travellerchb.github.io/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AC%94%E8%AE%B0.assets/%E6%AE%8B%E5%B7%AE.png">
 <meta property="og:image" content="https://travellerchb.github.io/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AC%94%E8%AE%B0.assets/%E5%81%8F%E5%B7%AE.png">
 <meta property="article:published_time" content="2024-08-06T07:28:15.000Z">
-<meta property="article:modified_time" content="2024-08-17T09:43:17.790Z">
+<meta property="article:modified_time" content="2024-08-18T09:42:03.869Z">
 <meta property="article:author" content="Traveller-CHB">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://travellerchb.github.io/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AC%94%E8%AE%B0.assets/%E5%85%B3%E8%81%94%E5%BA%A6%E8%AE%A1%E7%AE%97.png">
@@ -238,7 +238,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-08-17 17:43:17" itemprop="dateModified" datetime="2024-08-17T17:43:17+08:00">2024-08-17</time>
+                <time title="修改时间：2024-08-18 17:42:03" itemprop="dateModified" datetime="2024-08-18T17:42:03+08:00">2024-08-18</time>
               </span>
 
           
@@ -254,14 +254,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>9.9k</span>
+              <span>10k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>18 分钟</span>
+              <span>19 分钟</span>
             </span>
 
         </div>
@@ -760,6 +760,46 @@
 </ol>
 <p>​        如果绝对值&lt;0.1，则认为达到较高的要求</p>
 <p>​	如果绝对值&lt;0.2，则认为达到一般要求</p>
+<h1 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h1><p>要有相关章节或部分写明数据预处理</p>
+<ul>
+<li>数据清洗（清理）：<ul>
+<li>清除噪声</li>
+<li>缺失值处理<ul>
+<li>删除记录</li>
+<li>不处理</li>
+<li>数据插补<ul>
+<li>均值、众数、中位数</li>
+<li>使用固定值（查资料）</li>
+<li>最近临插补（在记录中找到与缺失样本最接近的样本的该属性插补）</li>
+<li>回归方法（工作量大、不建议）（根据已有数据和与其有关的其它变量（因变量）的数据建立拟合模型来预测缺失的属性）</li>
+<li>插值法（利用已知点建立合适的插值函数⨍(x)，未知值由对应点x<del>i</del>求出的函数值⨍(x<del>i</del>)近似代替）<ul>
+<li>拉格朗日插值法</li>
+<li>牛顿插值法</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>	</p>
+</li>
+<li>异常值处理<ul>
+<li>删除记录</li>
+<li>视为缺失值</li>
+<li>平均值修正（可用前后两个观测值的平均值修正）</li>
+<li>不处理</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>				</p>
+<p>数据集成：将多个数据源合并成一致的数据存储，构成一个完整的数据集</p>
+<p>数据变换（转换）：将一种格式的数据转换成另一种格式的数据（如规范化）</p>
+<p>​                                   使数据处于完美的正态分布，可以简单的用平均值和方差描述数据分布（平均值、众数、中位数三值相同）</p>
+<p>​				   归一化（最大—最小规范化、零—均值规范化、小数定标规范化）</p>
+<p>数据规约（消减）：通过聚集、删除冗余属性或聚类等方法来压缩数据</p>
+<p>缺失值、异常值的检测和处理</p>
+<p>数据的特征工程、数据降维算法</p>
 
     </div>
 
@@ -806,8 +846,8 @@
       <i class="fa fa-chevron-left"></i> 博客搭建小结
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/08/17/Markdown%20+%20Typora%20%E7%AC%94%E8%AE%B0%E9%80%9F%E8%AE%B0/" rel="next" title="Markdown + Typora 笔记速记">
-      Markdown + Typora 笔记速记 <i class="fa fa-chevron-right"></i>
+    <a href="/2024/08/17/hello-world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -872,7 +912,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%9A%84%E5%85%AD%E4%B8%AA%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.</span> <span class="nav-text">数学建模的六个步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E5%B7%A5"><span class="nav-number">2.</span> <span class="nav-text">分工</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%9B%E9%A2%98%E7%B1%BB%E5%9E%8B"><span class="nav-number">3.</span> <span class="nav-text">赛题类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-LP"><span class="nav-number">4.</span> <span class="nav-text">线性规划 LP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92-IP"><span class="nav-number">5.</span> <span class="nav-text">整数规划 IP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-NP"><span class="nav-number">6.</span> <span class="nav-text">非线性规划 NP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E6%AC%A1%E8%A7%84%E5%88%92"><span class="nav-number">7.</span> <span class="nav-text">二次规划</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95-AHP"><span class="nav-number">8.</span> <span class="nav-text">层次分析法 AHP</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B"><span class="nav-number">8.1.</span> <span class="nav-text">建立层次结构模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9E%84%E9%80%A0%E5%88%A4%E6%96%AD%EF%BC%88%E6%88%90%E5%AF%B9%E6%AF%94%E8%BE%83%EF%BC%89%E7%9F%A9%E9%98%B5"><span class="nav-number">8.2.</span> <span class="nav-text">构造判断（成对比较）矩阵</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E5%8D%95%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%B8%80%E8%87%B4%E6%80%A7%E6%A3%80%E9%AA%8C"><span class="nav-number">8.3.</span> <span class="nav-text">层次单排序及其一致性检验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E6%80%BB%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%B8%80%E8%87%B4%E6%80%A7%E6%A3%80%E9%AA%8C"><span class="nav-number">8.4.</span> <span class="nav-text">层次总排序及其一致性检验</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%90%86%E6%83%B3%E8%A7%A3%E6%B3%95-TOPSIS"><span class="nav-number">9.</span> <span class="nav-text">理想解法 TOPSIS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90"><span class="nav-number">10.</span> <span class="nav-text">聚类分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%81%B0%E8%89%B2%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B"><span class="nav-number">11.</span> <span class="nav-text">灰色关联分析与预测模型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B%E6%B3%95"><span class="nav-number">12.</span> <span class="nav-text">灰色预测法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E6%A3%80%E9%AA%8C%E4%B8%8E%E5%A4%84%E7%90%86"><span class="nav-number">12.1.</span> <span class="nav-text">数据的检验与处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BGM-1-1-%E6%A8%A1%E5%9E%8B"><span class="nav-number">12.2.</span> <span class="nav-text">建立GM(1,1)模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E9%AA%8C%E9%A2%84%E6%B5%8B%E5%80%BC"><span class="nav-number">12.3.</span> <span class="nav-text">检验预测值</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%9A%84%E5%85%AD%E4%B8%AA%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.</span> <span class="nav-text">数学建模的六个步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E5%B7%A5"><span class="nav-number">2.</span> <span class="nav-text">分工</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B5%9B%E9%A2%98%E7%B1%BB%E5%9E%8B"><span class="nav-number">3.</span> <span class="nav-text">赛题类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-LP"><span class="nav-number">4.</span> <span class="nav-text">线性规划 LP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E8%A7%84%E5%88%92-IP"><span class="nav-number">5.</span> <span class="nav-text">整数规划 IP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92-NP"><span class="nav-number">6.</span> <span class="nav-text">非线性规划 NP</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E6%AC%A1%E8%A7%84%E5%88%92"><span class="nav-number">7.</span> <span class="nav-text">二次规划</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95-AHP"><span class="nav-number">8.</span> <span class="nav-text">层次分析法 AHP</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B"><span class="nav-number">8.1.</span> <span class="nav-text">建立层次结构模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9E%84%E9%80%A0%E5%88%A4%E6%96%AD%EF%BC%88%E6%88%90%E5%AF%B9%E6%AF%94%E8%BE%83%EF%BC%89%E7%9F%A9%E9%98%B5"><span class="nav-number">8.2.</span> <span class="nav-text">构造判断（成对比较）矩阵</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E5%8D%95%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%B8%80%E8%87%B4%E6%80%A7%E6%A3%80%E9%AA%8C"><span class="nav-number">8.3.</span> <span class="nav-text">层次单排序及其一致性检验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E6%80%BB%E6%8E%92%E5%BA%8F%E5%8F%8A%E5%85%B6%E4%B8%80%E8%87%B4%E6%80%A7%E6%A3%80%E9%AA%8C"><span class="nav-number">8.4.</span> <span class="nav-text">层次总排序及其一致性检验</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%90%86%E6%83%B3%E8%A7%A3%E6%B3%95-TOPSIS"><span class="nav-number">9.</span> <span class="nav-text">理想解法 TOPSIS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90"><span class="nav-number">10.</span> <span class="nav-text">聚类分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%81%B0%E8%89%B2%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B"><span class="nav-number">11.</span> <span class="nav-text">灰色关联分析与预测模型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%81%B0%E8%89%B2%E9%A2%84%E6%B5%8B%E6%B3%95"><span class="nav-number">12.</span> <span class="nav-text">灰色预测法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E6%A3%80%E9%AA%8C%E4%B8%8E%E5%A4%84%E7%90%86"><span class="nav-number">12.1.</span> <span class="nav-text">数据的检验与处理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BGM-1-1-%E6%A8%A1%E5%9E%8B"><span class="nav-number">12.2.</span> <span class="nav-text">建立GM(1,1)模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E9%AA%8C%E9%A2%84%E6%B5%8B%E5%80%BC"><span class="nav-number">12.3.</span> <span class="nav-text">检验预测值</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">13.</span> <span class="nav-text">数据预处理</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -946,12 +986,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">13k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">22 分钟</span>
+    <span title="站点阅读时长">23 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
